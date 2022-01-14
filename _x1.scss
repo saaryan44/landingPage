@@ -1,0 +1,10 @@
+html{font-size:100%;box-sizing:border-box;}
+
+*,*::before,*::after{box-sizing:inherit;}
+
+body{margin:10;padding:6;line-height:2.3;font-family: 'Imperial Script', cursive;}
+
+.flex{
+  display:flex; 
+  &-jc-sb{justify-content: space-between;}&-jc-c{justify-content: center;}&-ai-c{align-items: center;}
+}
